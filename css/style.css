@@ -1,0 +1,23 @@
+/* EREDITARIETA' */
+/* SPESSO SONO PROPEITà DI TESTO, FONT. NON PROPRIETA' COME VERTICAL ALIGN O DISPLAY */
+
+body{
+    background-color: aquamarine;
+}
+.section1{
+    color: brown;
+}
+h1{
+    color: burlywood;
+}
+
+/* SPECIFICITA' */
+ordine dalla più forte:
+
+- style inline direttamente in html (da evitare quasi sempre)
+- con selettore id
+- con selettore class e pseudo class
+- con elementi (p,h1 ecc)
+se si modifica stesso testo con classi dello stesso ordine vince quella scritta sulla riga più recente
+- se su css usiamo, per selezionare un testo in html, 2 classi, queste vincono sulle singole classi
+ex: .class1 .class2 vincono se un testo è modificato con solo .class1
