@@ -1,0 +1,5 @@
+selettori avanzati
+
+- * star selector, prende ogni singolo tag dell'html
+- AND selecter ex: div.class {} senza spazio ovvero prende il div con classe nome class
+- attribute selector ex:input[]
